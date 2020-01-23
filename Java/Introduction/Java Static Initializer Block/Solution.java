@@ -1,5 +1,10 @@
 // github.com/RodneyShag
 
+//Static initialization blocks are executed when the class is loaded, and you can initialize static variables in those blocks.
+
+//https://stackoverflow.com/questions/9379426/java-when-is-a-static-initialization-block-useful
+
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -31,3 +36,24 @@ public class Solution {
         }
     } // end of main
 } // end of class
+
+
+//HR Solution
+
+// static int B, H;
+// static boolean flag = true;
+// static {
+
+//  Scanner sc = new Scanner(System.in);
+//  B = sc.nextInt();
+//  H = sc.nextInt();
+//  sc.close();
+//  try {
+//   if (B <= 0 || H <= 0)
+//    throw new Exception("Breadth and height must be positive");
+//  } catch (Exception e) {
+//   System.out.println(e);
+//   System.exit(0);
+//  }
+
+// }

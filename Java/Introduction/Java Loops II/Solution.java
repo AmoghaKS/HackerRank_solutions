@@ -1,4 +1,5 @@
 // github.com/RodneyShag
+//a+2^0*b a+2^1*b .....
 
 import java.util.Scanner;
 

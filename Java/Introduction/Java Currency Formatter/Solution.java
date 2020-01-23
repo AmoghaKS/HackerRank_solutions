@@ -1,4 +1,5 @@
 // github.com/RodneyShag
+//Given a double-precision number, , denoting an amount of money, use the NumberFormat class' getCurrencyInstance method to convert  into the US, Indian, Chinese, and French currency formats. Then print the formatted values
 
 import java.util.Scanner;
 import java.text.NumberFormat;
